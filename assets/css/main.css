@@ -1,0 +1,139 @@
+/* general */
+
+html, body {
+    padding: 0;
+    margin: 0;
+    min-width: 1000px;
+    background-color: rgb(241, 241, 241);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* navigation bar */ 
+
+.nav_bar {
+    background-color: rgb(33, 92, 255);
+    padding: 0;
+    margin: 0;
+    width: 22%;
+    min-width: 200px;
+    height: 100%;
+    float: left;
+    position: fixed;
+}
+
+.nav_bar > div {
+    text-align: center;
+    margin: 30px 10px 30px 10px;
+}
+
+.nav_bar > div > a {
+    color: rgb(177, 203, 255);
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.nav_bar > div > a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 135%;
+}
+
+#nav_bar_about {
+    margin-top: 100px;
+}
+
+
+
+/* content */
+
+.content {
+    float: right;
+    width: 78%;
+}
+
+.content > div {
+    /* background-color: rgb(255, 136, 0); */
+    color: rgb(49, 49, 49);
+    text-align: left;
+    margin: 30px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    color: rgb(49, 49, 49);
+    text-align: left;
+    margin: 30px;
+}
+
+#nav_about_content {
+    width: 39%;
+}
+
+#nav_about_image {
+    float: clear;
+    float: right;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 15px;
+    border: 7.5px solid rgb(106, 155, 255);
+}
+
+/* lists */
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.list > li {
+    margin-right: 50px;
+}
+
+.list > li > a {
+    text-decoration: none;
+    color: rgb(33, 92, 255);
+}
+
+.list > li > a:hover {
+    color: rgb(11, 76, 255);
+    font-size: 20px;
+}
+
+/* experience and projects*/
+.box {
+    background-color: rgb(220, 220, 220);
+    border-radius: 15px;
+    min-height: 200px;
+    min-width: 600px;
+    margin: 30px;
+}
+
+.box_date {
+    padding: 15px;
+    float: right;
+    width: 30%;
+    text-align: right;
+    font-weight: bold;
+}
+
+.box_title {
+    padding: 15px;
+    float: left;
+    width: 60%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.box_content {
+    padding: 10px;
+    width: 90%;
+    clear: both;
+    text-align: left;
+}
