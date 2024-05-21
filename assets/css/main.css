@@ -38,6 +38,7 @@ html, body {
 .nav_bar > div > a:hover {
     color: rgb(255, 255, 255);
     font-size: 135%;
+    transition: all .4s ease;
 }
 
 #nav_bar_about {
@@ -96,14 +97,8 @@ h1 {
     margin-right: 50px;
 }
 
-.list > li > a {
-    text-decoration: none;
-    color: rgb(33, 92, 255);
-}
-
 .list > li > a:hover {
-    color: rgb(11, 76, 255);
-    font-size: 20px;
+    transition: all .4s ease;
 }
 
 /* experience and projects*/
@@ -137,4 +132,17 @@ h1 {
     width: 90%;
     clear: both;
     text-align: left;
+}
+
+/* logos */
+.logo {
+    height: 120px;
+    width: 120px;
+}
+
+
+.logo:hover {
+    height: 135px;
+    width: 135px;
+    transition: all .4s ease;
 }
